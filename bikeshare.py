@@ -2,9 +2,13 @@ import time
 import pandas as pd
 import numpy as np
 
+# City files
+
 CITY_DATA = { 'chicago': 'downloads\chicago.csv',
              'washington': 'downloads\washington.csv',
             'new york city': 'downloads\new_york_city.csv'}
+
+# Create a filter which bring city, month and day for the analysis.
 
 def get_filters():
     """
